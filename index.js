@@ -32,6 +32,7 @@ bot.on('message', (msg) => {
         }
     });
 });
+//добавление кода...
 
 bot.on('callback_query', (query) => {
     const chatId = query.message.chat.id;
